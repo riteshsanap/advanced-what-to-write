@@ -1,7 +1,7 @@
 <?php 
 /* 
 Plugin Name: Advanced What to Write Next
-Version: 1.0.2
+Version: 1.0.3
 Author: Ritesh Sanap
 Description: A Plugin based and Inspired by "What Should We Write About Next" plugin by Vladimir prelovac, Which allows users to quickly leave feedback at the end of your posts.
 Author URI: http://www.best2know.info/
