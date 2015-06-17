@@ -6,6 +6,8 @@ Author: Ritesh Sanap
 Description: A Plugin based and Inspired by "What Should We Write About Next" plugin by Vladimir prelovac, Which allows users to quickly leave feedback at the end of your posts.
 Author URI: http://www.best2know.info/
 Plugin URI: http://wpden.net/advanced-write-next-wordpress-plugin/
+Text Domain: awtw_plugin
+Domain Path: /lang
 */
 /************************************************************************************/
 /*	Plugin Version	*/		
@@ -226,7 +228,7 @@ function awtw_feedback_options_page(){
 			</tr>
 		</table>
 	</form>
-<p class="help description"><?php _e('Have a problem? Suggestion or Need Help, just <a href="mailto:riteshsanap@gmail.com" target="_blank">contact me</a>.', 'awtw_plugin'); ?></p>
+<p class="help description"><?php printf(__('Have a problem? Suggestion or Need Help, just %s contact me%s.', 'awtw_plugin'), '<a href="mailto:riteshsanap@gmail.com" target="_blank">', '</a>'); ?></p>
 	
 	<?php 	} // end isset settings page.
 	echo '<form id="awtw_actions_bulk_action" method="POST">';

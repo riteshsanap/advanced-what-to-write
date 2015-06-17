@@ -1,0 +1,171 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Advanced What to Write Next\n"
+"POT-Creation-Date: 2015-06-17 17:47+0530\n"
+"PO-Revision-Date: 2015-06-17 17:37+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: awtw-plugin.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: awtw-plugin.php:42
+msgid "What should we write about next?"
+msgstr ""
+
+#: awtw-plugin.php:57 awtw-plugin.php:174
+msgid "Settings"
+msgstr ""
+
+#: awtw-plugin.php:167
+msgid "Advanced What to write next ?"
+msgstr ""
+
+#: awtw-plugin.php:171
+msgid "Approved"
+msgstr ""
+
+#: awtw-plugin.php:172
+msgid "Spams"
+msgstr ""
+
+#: awtw-plugin.php:173 awtw-table.php:214 awtw-table.php:327
+msgid "Pending"
+msgstr ""
+
+#: awtw-plugin.php:188
+msgid "Options updated."
+msgstr ""
+
+#: awtw-plugin.php:197
+msgid "Label Text:"
+msgstr ""
+
+#: awtw-plugin.php:199
+msgid "The Heading text shown above the form."
+msgstr ""
+
+#: awtw-plugin.php:203
+msgid "Minimum Length:"
+msgstr ""
+
+#: awtw-plugin.php:205
+msgid ""
+"Minimum Length of Characters Accepted in a Feedback. if the Minimum Length "
+"is not met then an \"Feedback too Short!\" error will be shown."
+msgstr ""
+
+#: awtw-plugin.php:209
+msgid "Number of Entries:"
+msgstr ""
+
+#: awtw-plugin.php:211
+msgid ""
+"The Amount of Feedback entries shown on Admin page (eg: Approved/Pending/"
+"Spam etc.)"
+msgstr ""
+
+#: awtw-plugin.php:215
+msgid "Attach to Post content:"
+msgstr ""
+
+#: awtw-plugin.php:219
+msgid ""
+"Auto display is disabled. Please add the following code in <code>single.php</"
+"code>, where you want to display the form.<br/><code>&lt;?php echo "
+"awtw_plugin_html(); &gt;</code>"
+msgstr ""
+
+#: awtw-plugin.php:227
+msgid "Save Settings"
+msgstr ""
+
+#: awtw-plugin.php:231
+#, php-format
+msgid "Have a problem? Suggestion or Need Help, just %s contact me%s."
+msgstr ""
+
+#: awtw-plugin.php:294
+msgid "Are you sure ? Once deleted, cannot be recovered."
+msgstr ""
+
+#: awtw-table.php:210 awtw-table.php:324
+msgid "Approve"
+msgstr ""
+
+#: awtw-table.php:218
+msgid "Mark as Spam"
+msgstr ""
+
+#: awtw-table.php:221 awtw-table.php:332
+msgid "Delete"
+msgstr ""
+
+#: awtw-table.php:273
+msgid "IP Address"
+msgstr ""
+
+#: awtw-table.php:274
+msgid "Feedback"
+msgstr ""
+
+#: awtw-table.php:275
+msgid "Source URL"
+msgstr ""
+
+#: awtw-table.php:277
+msgid "Submitted on"
+msgstr ""
+
+#: awtw-table.php:330
+msgid "Spam"
+msgstr ""
+
+#: awtw-table.php:354
+msgid "Feedbacks deleted !"
+msgstr ""
+
+#: awtw-table.php:363
+msgid "Feedbacks marked as pending !"
+msgstr ""
+
+#: awtw-table.php:371
+msgid "Feedbacks Approved!"
+msgstr ""
+
+#: awtw-table.php:379
+msgid "Feedbacks marked as Spam !"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Advanced What to Write Next"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://wpden.net/advanced-write-next-wordpress-plugin/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A Plugin based and Inspired by \"What Should We Write About Next\" plugin by "
+"Vladimir prelovac, Which allows users to quickly leave feedback at the end "
+"of your posts."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Ritesh Sanap"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.best2know.info/"
+msgstr ""
