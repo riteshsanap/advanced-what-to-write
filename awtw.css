@@ -1,0 +1,73 @@
+#awtw-feedback-form label{
+    display: block;
+    font-family: Helvetica;
+    font-size: 20px;
+    line-height: 1.4em;
+    text-align: center;
+}
+#awtw-feedback-form label input#awtw-feedback-msg{
+    border: 1px solid #DFDFDF;
+    border-radius: 6px 6px 6px 6px;
+    clear: both;
+    display: inline-block;
+    height: 30px;
+    margin-right: 5px;
+    padding: 0 5px;
+    margin-top: 5px;
+    width: 70%;
+}
+#awtw-feedback-form label input.button{
+    background:#4991AB;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #759DAA), color-stop(100%), #4991AB));
+    background: -webkit-linear-gradient(center top , #759DAA 0%, #4991AB 100%) repeat scroll 0 0 transparent;
+    background: -moz-linear-gradient(center top , #759DAA 0%, #4991AB 100%) repeat scroll 0 0 transparent;
+    background: -o-linear-gradient(center top , #759DAA 0%, #4991AB 100%) repeat scroll 0 0 transparent;
+    background: -ms-linear-gradient(center top , #759DAA 0%, #4991AB 100%) repeat scroll 0 0 transparent;
+    background: linear-gradient(center top , #759DAA 0%, #4991AB 100%) repeat scroll 0 0 transparent;
+    border: 1px solid #4991AB;
+    -webkit-border-radius: 70px 70px 70px 70px;
+    -moz-border-radius: 70px 70px 70px 70px;
+    border-radius: 70px 70px 70px 70px;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    color: #FFFFFF !important;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 4px 17px;
+    text-align: center;
+    text-decoration: none !important;
+    text-shadow: 0 1px 0 #4991AB;
+    display:inline-block;
+    font-size: 18px;
+    font-weight: normal;
+}
+#awtw-feedback-form label label{
+	margin:5px 0 0 0;
+}
+
+#awtw-feedback-form
+{
+	margin: 20px 0;
+}
+
+
+label.label.feedback_title{
+	margin-bottom:5px;
+}
+span#awtw-feedback-result{
+    background: none repeat scroll 0 0 #a3c63e;
+    border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+    color: #FFFFFF;
+    display: none;
+    font-family: Helvetica;
+    font-size: 20px;
+    padding: 4px;
+    text-align: center;
+    margin-top:5px;
+}
+span#awtw-feedback-result.error {
+    background: #C63E3E;
+}
